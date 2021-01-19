@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 const Counter = () => {
-    const [ number, serNumber ] = useState(0)
+    const [ number, setNumber ] = useState(0)
     return <>
     <h1>카운터</h1>
     <h2>{number}</h2>
