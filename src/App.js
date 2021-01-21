@@ -2,7 +2,8 @@ import './App.css'
 /* import Hello from './hello/Hello'
 import Calculator from './calc/Calculator'
 import NumberProvider from './calc/NumberProvider' */
-import ToDoInput from './todo/ToDoInput'
+import Schedule from './todo/Schedule'
 
-const App = () => (<ToDoInput/>)
-export default App;
+export default function App(){
+  return (<Schedule/>)
+}

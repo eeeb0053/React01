@@ -8,7 +8,7 @@ import NegativeButton from './NegativeButton'
 import NumberButton from './NumberButton'
 import { CalculatorStyles } from './styles/Style'
 
-const Calculator = () => (<CalculatorStyles>
+export default function Calculator(){ return (<CalculatorStyles>
     <div className='display'>
         <h1>계 산 기</h1>
         <Display/>
@@ -37,6 +37,4 @@ const Calculator = () => (<CalculatorStyles>
         <NumberButton buttonValue="."/>
         <EqualButton />
     </div>
-</CalculatorStyles>)
-
-export default Calculator
+</CalculatorStyles>)}
