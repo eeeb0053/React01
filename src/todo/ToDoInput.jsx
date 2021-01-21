@@ -11,7 +11,7 @@ export default function ToDoInput(){
     const submitForm = e => {
         e.preventDefault()
         const newTodo = {
-            todoId: uuidv4(),
+            id: uuidv4(),
             name: todo,
             complete: false
         }
